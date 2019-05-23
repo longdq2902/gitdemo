@@ -1,7 +1,7 @@
 ﻿1. Tạo key
 keytool -genkey -alias tomcat -keystore /opt/apache-tomcat-8.5.41/bin/keystore -storetype PKCS12 -keyalg RSA -storepass amaster123 -validity 730 -keysize 2048 
 
-2. Cấu hình server.xml	acb
+2. Cấu hình server.xml	acb bcd
 	   
 <Connector port="8443" 
 maxThreads="150" 
